@@ -30,7 +30,7 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     print("Ilawa >> WARNING! TO EXIT PROGRAM PRESS CTRL+C \n")
     print("Ilawa >> Now this tool works only in UDP mode!")
     import attack #if u do not understand this u're dumb
-    import prepareTorServices #imports prepareTorServices.py, this module enables tor-service for attack lol
+    import prepareTorServices #imports prepareTorServices.py, this module enables tor-service for attack lmao
 
     import os
     print("Ilawa >> Downloading TOR Expert bundle, it will be used to hide u from ur mom and police... \n")

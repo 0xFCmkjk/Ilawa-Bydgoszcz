@@ -26,7 +26,7 @@ def enableAttack(ip, port, threadsCount, cooldown, userAgent):
     threads = []
     
     for _ in range(threadsCount):
-        thr = threading.Thread(target=attack)
+        thr = threading.Thread(target=attack) #tf tf
         thr.start()
         threads.append(thr)
 

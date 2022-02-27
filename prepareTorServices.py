@@ -10,4 +10,4 @@ def startServices():
 
 def stopServices():
     os.system("cd Tor")
-    os.system("tor.exe --service stop")
+    os.system("tor.exe --service stop") #some
