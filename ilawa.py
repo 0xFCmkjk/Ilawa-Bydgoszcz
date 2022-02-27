@@ -47,7 +47,7 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     #prepareTorServices.installServices()
 
     #print("Ilawa >> Starting TorServices...")
-    #prepareTorServices.startServices()
+    #prepareTorServices.startServices()#
 
     print("Ilawa >> Now u have to put in some data!")
     ip = input("Put ur target ip/url")
