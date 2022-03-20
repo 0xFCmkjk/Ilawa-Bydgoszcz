@@ -35,7 +35,7 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     import prepareTorServices #imports prepareTorServices.py, this module enables tor-service for attack niggere
 
     import os
-    print("Ilawa >> Downloading TOR Expert bundle, it will be used to hide u from ur mom and police... \n")
+    '''print("Ilawa >> Downloading TOR Expert bundle, it will be used to hide u from ur mom and police... \n")
     if os.path.exists("Tor.zip") is False:
         os.system("wget https://cdn-132.anonfiles.com/n4u9veK0x0/98d58f6f-1645867289/Tor.zip") #TOR windows expert bundle on anonfiles
         print("Ilawa >> Download probably done \n")
@@ -51,7 +51,7 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     prepareTorServices.installServices()
 
     print("Ilawa >> Starting TorServices...")
-    prepareTorServices.startServices()
+    prepareTorServices.startServices()'''
 
     print("Ilawa >> Now u have to put in some data! \n")
     ip = input("Put ur target ip/url \n")
