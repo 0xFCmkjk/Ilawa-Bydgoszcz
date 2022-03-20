@@ -29,7 +29,7 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     print("Ilawa >> Verication passed. \n")
     print("Ilawa >> WARNING! TO EXIT PROGRAM PRESS CTRL+C \n")
     print("Ilawa >> Now this tool works only in UDP mode!")
-    import attack #if u do not understand this u're dumb
+    import attack #if u do not understand this u're dumbo
     import prepareTorServices #imports prepareTorServices.py, this module enables tor-service for attack niggere
 
     import os
