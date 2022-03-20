@@ -1,4 +1,6 @@
 import time
+
+from more_itertools import unzip
 print(""" 
 $$$$$$\ $$\                                           $$$$$$$\                  $$\                                                             
 \_$$  _|$$ |                                          $$  __$$\                 $$ |                                                            
@@ -33,21 +35,23 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     import prepareTorServices #imports prepareTorServices.py, this module enables tor-service for attack niggere
 
     import os
-    #print("Ilawa >> Downloading TOR Expert bundle, it will be used to hide u from ur mom and police... \n")
-    #if os.path.exists("Tor.zip") is False:
-    #    os.system("wget https://cdn-132.anonfiles.com/n4u9veK0x0/98d58f6f-1645867289/Tor.zip") #TOR windows expert bundle on anonfiles
-    #    print("Ilawa >> Download probably done \n")
-    #    print("Ilawa >> Unziping... \n")
-    #    os.system("unzip Tor.zip \n") #unzips Tor.zip (downloaded file)
-    #    print("Ilawa >> Unzip probably done! \n")
-    #elif os.path.exists("Tor"):
-    #    print("Ilawa >> Tor folder exists, skipping download procces...")
+    print("Ilawa >> Downloading TOR Expert bundle, it will be used to hide u from ur mom and police... \n")
+    if os.path.exists("Tor.zip") is False:
+        os.system("wget https://cdn-132.anonfiles.com/n4u9veK0x0/98d58f6f-1645867289/Tor.zip") #TOR windows expert bundle on anonfiles
+        print("Ilawa >> Download probably done \n")
+        print("Ilawa >> Unziping... \n")
+        os.system("unzip Tor.zip \n") #unzips Tor.zip (downloaded file)
+        print("Ilawa >> Unzip probably done! \n")
+    elif os.path.exists("Tor"):
+        print("Ilawa >> Tor folder exists, skipping download procces...")
+    elif os.path.exists("Tor.zip") is True:
+        os.system("unzip Tor.zip") 
 
-    #print("Ilawa >> Installing TorServices...")
-    #prepareTorServices.installServices()
+    print("Ilawa >> Installing TorServices...")
+    prepareTorServices.installServices()
 
-    #print("Ilawa >> Starting TorServices...")
-    #prepareTorServices.startServices() ahahahahahahhahahhahah
+    print("Ilawa >> Starting TorServices...")
+    prepareTorServices.startServices()
 
     print("Ilawa >> Now u have to put in some data! \n")
     ip = input("Put ur target ip/url \n")
