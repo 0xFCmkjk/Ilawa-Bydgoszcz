@@ -1,3 +1,5 @@
 /.vscode
 /Tor.zip
-/__pychache__
+/__pycache__
+__pycache__/attack.cpython-310.pyc
+
