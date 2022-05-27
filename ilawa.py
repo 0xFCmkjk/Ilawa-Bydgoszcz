@@ -14,13 +14,13 @@ $$$$$$\ $$ |\$$$$$$$ |\$$$$$\$$$$  |\$$$$$$$ |        $$$$$$$  |\$$$$$$$ |\$$$$$
                                                                  \______/            \______/   version: Dev i guess
 \n""")
 time.sleep(0.69)
-print("Ilawa >> Welcome to DOS tool, this shit is created only for educational purposes, don't use this to do bad things like turning off your mom's pornhub page! \n")
+print("Ilawa >> Welcome to my DOS tool, this shit is created only for educational purposes! \n")
 time.sleep(0.69)
-print("Ilawa >> We need to verify that u're not drunk, and u know what u're doing. Rewrite this phrase: '\033[1m niggers \033[0m'\n")
+print("Ilawa >> We need to verify that you know what you're doing. Rewrite this phrase: '\033[1m niggers \033[0m'\n")
 time.sleep(0.69)
 phs = input()
 
-if phs == "niggers":  # if clausule
+if phs == "niggers":
     
     userAgent = "ukraini slava"
     cooldown = 1
