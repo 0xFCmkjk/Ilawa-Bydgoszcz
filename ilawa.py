@@ -1,6 +1,5 @@
 import time
 
-from more_itertools import unzip
 print(""" 
 $$$$$$\ $$\                                           $$$$$$$\                  $$\                                                             
 \_$$  _|$$ |                                          $$  __$$\                 $$ |                                                            
@@ -17,13 +16,11 @@ $$$$$$\ $$ |\$$$$$$$ |\$$$$$\$$$$  |\$$$$$$$ |        $$$$$$$  |\$$$$$$$ |\$$$$$
 time.sleep(0.69)
 print("Ilawa >> Welcome to DOS tool, this shit is created only for educational purposes, don't use this to do bad things like turning off your mom's pornhub page! \n")
 time.sleep(0.69)
-print("Ilawa >> This lovely tool works only on Windows, if u're using this, probably u're not smart enough to use linux. \n")
-time.sleep(0.69)
-print("Ilawa >> We need to verify that u're not drunk, and u know what u're doing. Rewrite this phrase: '\033[1m IMSUCHADUMBGUYMYMOMDOPORNHUB \033[0m'\n")
+print("Ilawa >> We need to verify that u're not drunk, and u know what u're doing. Rewrite this phrase: '\033[1m niggers \033[0m'\n")
 time.sleep(0.69)
 phs = input()
 
-if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule 
+if phs == "niggers":  # if clausule
     
     userAgent = "ukraini slava"
     cooldown = 1
@@ -31,28 +28,7 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
     print("Ilawa >> Verication passed. \n")
     print("Ilawa >> WARNING! TO EXIT PROGRAM PRESS CTRL+C \n")
     print("Ilawa >> Now this tool works only in UDP mode!")
-    import attack #if u do not understand this u're dumbo
-    import prepareTorServices #imports prepareTorServices.py, this module enables tor-service for attack niggere
-
-    import os
-    '''print("Ilawa >> Downloading TOR Expert bundle, it will be used to hide u from ur mom and police... \n")
-    if os.path.exists("Tor.zip") is False:
-        os.system("wget https://cdn-132.anonfiles.com/n4u9veK0x0/98d58f6f-1645867289/Tor.zip") #TOR windows expert bundle on anonfiles
-        print("Ilawa >> Download probably done \n")
-        print("Ilawa >> Unziping... \n")
-        os.system("unzip Tor.zip \n") #unzips Tor.zip (downloaded file)
-        print("Ilawa >> Unzip probably done! \n")
-    elif os.path.exists("Tor"):
-        print("Ilawa >> Tor folder exists, skipping download procces...")
-    elif os.path.exists("Tor.zip") is True:
-        os.system("unzip Tor.zip") 
-
-    print("Ilawa >> Installing TorServices...")
-    prepareTorServices.installServices()
-
-    print("Ilawa >> Starting TorServices...")
-    prepareTorServices.startServices()'''
-
+    import attack  # if u do not understand this u're dumbo
     print("Ilawa >> Now u have to put in some data! \n")
     ip = input("Put ur target ip/url \n")
     port = input("Put port that will be attacked \n")
@@ -64,11 +40,8 @@ if phs == "IMSUCHADUMBGUYMYMOMDOPORNHUB": #if clausule
         print("Are u sure that u want make DoS attack ONLY for educational purposes? [Y/n]")
         confirm = input()
         if confirm == "Y" or "y":
+            print("Ilawa >> Starting attack...")
             attack.enableAttack(ip=ip, port=port, threadsCount=int(nawalki), cooldown=int(cooldown))
-            print(r"Ilawa >> Я НАЧИНАЮ АТАКУ")
-            print(r"ПОДГОТОВЬТЕСЬ К ИНТЕРЕСНЫМ ЭФФЕКТАМ")
-            print(r"МЫ УДАРЯЕМ")
-
         
         else:
             print("Quiting the program, NAURA!")

