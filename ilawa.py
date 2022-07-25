@@ -21,8 +21,6 @@ time.sleep(0.69)
 phs = input()
 
 if phs == "niggers":
-    
-    userAgent = "ukraini slava"
     cooldown = 1
 
     print("Ilawa >> Verication passed. \n")
