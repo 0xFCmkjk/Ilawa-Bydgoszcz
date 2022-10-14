@@ -16,11 +16,11 @@ $$$$$$\ $$ |\$$$$$$$ |\$$$$$\$$$$  |\$$$$$$$ |        $$$$$$$  |\$$$$$$$ |\$$$$$
 time.sleep(0.69)
 print("Ilawa >> Welcome to my DOS tool, this shit is created only for educational purposes! \n")
 time.sleep(0.69)
-print("Ilawa >> We need to verify that you know what you're doing. Rewrite this phrase: '\033[1m niggers \033[0m'\n")
+print("Ilawa >> We need to verify that you know what you're doing. Rewrite this phrase: '\033[1m noilovecookies \033[0m'\n")
 time.sleep(0.69)
 phs = input()
 
-if phs == "niggers":
+if phs == "noilovecookies":
     cooldown = 1
 
     print("Ilawa >> Verication passed. \n")
@@ -42,11 +42,11 @@ if phs == "niggers":
             attack.enableAttack(ip=ip, port=port, threadsCount=int(nawalki), cooldown=int(cooldown))
         
         else:
-            print("Quiting the program, NAURA!")
+            print("Quiting the program")
             quit()
 
     else:
         print("Ilawa >> Data Error")
         
 else:
-    print("Ilawa >> Veryfication Passn't lmao")
+    print("Ilawa >> Bad phrase")
